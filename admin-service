@@ -1,0 +1,26 @@
+hi i have covered below topics today..
+1. tags:
+  commands will be as :  git tag v1.1 -m "first tag"
+  git push origin v1.0
+
+2. to get the log details in short form we can use as:
+   git log --pretty=oneline
+
+To create a branch :
+1. git checkout -b feature1
+output : switched to a new branch 'feature'
+
+2. git branch (to know the branch deatils and which branch we are:)
+ouput : * feature1
+         main
+
+3. to go back to main branch from feature branch:
+   git switch main
+output : Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+4. to create sub or multiple branch :
+  git switch --create fearture2
+output : Switched to a new branch 'feature2'
+
+5. 
