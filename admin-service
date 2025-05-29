@@ -23,4 +23,7 @@ Your branch is up to date with 'origin/main'.
   git switch --create fearture2
 output : Switched to a new branch 'feature2'
 
-5. 
+5. To delete the BRANCH :
+  git branch -d feature2
+output : Deleted branch feature2 (was b412b4d).
+
