@@ -27,3 +27,11 @@ output : Switched to a new branch 'feature2'
   git branch -d feature2
 output : Deleted branch feature2 (was b412b4d).
 
+6. this barnch need to push for remote one means git hub:
+  git push origin main
+
+7. switch to main and merge the feature1 branch to main:
+  git merge feature1.
+
+8. to reflect in git hub need to push again
+   git push origin main
